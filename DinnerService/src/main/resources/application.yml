@@ -1,0 +1,18 @@
+
+server:
+  port: 8081
+    
+logging:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN
+
+
+spring:
+  application:
+    name: DinnerService
+  cloud:
+    zookeeper:
+      discovery:
+        enabled: true
+        
+ 
